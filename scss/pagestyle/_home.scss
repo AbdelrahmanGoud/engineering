@@ -43,7 +43,7 @@
 
           .navbar-nav {
                     .nav-link {
-                              color: black !important;
+                              color: black;
                               font-weight: bold !important;
                            
                     }
@@ -348,6 +348,7 @@
          display: flex;
          justify-content: center;
          align-items: center;
+         text-align: center;
          flex-direction: column !important;
       }  
    }
