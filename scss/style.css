@@ -328,6 +328,14 @@
   color: #ccc;
   border-radius: 50%;
 }
+@media screen and (max-width: 767px) {
+  .sec-9 .cont-foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+}
 .sec-9 .h-icon:hover {
   background-color: #ffc400;
   color: white;
@@ -345,7 +353,7 @@
 }
 .arrow-up i {
   font-size: 35px;
-  color: #ffc400;
+  color: #000;
   cursor: pointer;
 }
 
@@ -427,14 +435,14 @@ body {
 .home-1 {
   background-image: url("../image/back1.jpg");
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
 }
 
 .home-2 {
   background-image: url("../image/back2.jpg");
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
 }
 
@@ -442,5 +450,5 @@ body {
   background-image: url("../image/404-Pages.jpg");
   height: 100vh;
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */

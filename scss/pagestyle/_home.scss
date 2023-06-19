@@ -412,6 +412,16 @@
          border-radius: 50%;
       }
    }
+   @media screen and (max-width:767px)
+    {
+      .cont-foot
+      {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column !important;
+      }
+   }
    .h-icon:hover
    {
       background-color: #ffc400;
@@ -427,7 +437,7 @@
    i
    {
       font-size: 35px;
-      color: #ffc400;
+      color: #000;
       cursor: pointer;
    }
    animation-name:arrowanmat ;
