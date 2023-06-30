@@ -451,5 +451,5 @@ body {
   background-image: url("../image/404-Pages.jpg");
   height: 100vh;
   background-position: center center;
-  background-size: cover;
+  background-size: 100% 100%;
 }/*# sourceMappingURL=style.css.map */
