@@ -31,12 +31,13 @@
 .navbar {
   background-color: white !important;
 }
-.navbar .logo-nav {
-  width: 200px !important;
-}
 .navbar .navbar-nav .nav-link {
   color: black;
   font-weight: bold !important;
+}
+
+.logo-nav {
+  width: 150px !important;
 }
 
 .spactial {
